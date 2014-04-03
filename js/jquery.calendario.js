@@ -12,19 +12,6 @@
 
 	// the options
 	$.Calendario.defaults = {
-		/*
-		you can also pass:
-		month : initialize calendar with this month (1-12). Default is today.
-		year : initialize calendar with this year. Default is today.
-		caldata : initial data/content for the calendar.
-		caldata format:
-		{
-			'MM-DD-YYYY' : 'HTML Content',
-			'MM-DD-YYYY' : 'HTML Content',
-			'MM-DD-YYYY' : 'HTML Content'
-			...
-		}
-		*/
 		weeks : [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ],
 		weekabbrs : [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ],
 		months : [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ],
@@ -253,9 +240,7 @@
 			this._generateTemplate( callback );
 
 		},
-		/************************* 
-		******PUBLIC METHODS *****
-		**************************/
+
 		getYear : function() {
 			return this.year;
 		},
