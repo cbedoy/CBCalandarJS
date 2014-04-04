@@ -50,7 +50,11 @@
 
 
                 $('#calendar').find('.fc-row').click(function(){
+                    //Expand or collapse this panel
 
+                    $(".fc-row").not($(this)).slideUp('slow');
+
+                    $(".fc-body").append("<div class='reservation'> dadasda</div>");
                 });
 
 				$( '#custom-next' ).on( 'click', function() {

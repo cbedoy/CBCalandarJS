@@ -6,6 +6,14 @@ body {
 	background-size: 100% 100%;
 }
 
+.reservation{
+    background-color: rgba(255, 94, 77, 0.75);
+    margin-top: 11px;
+    height: 80%;
+    width: 100%;
+}
+
+
 .custom-calendar-full {
 	position: absolute;
 	top: 0px;
@@ -180,6 +188,8 @@ body {
 	border: none;
 	padding: 20px;
 }
+
+
 
 .fc-calendar .fc-row {
 	box-shadow: inset 0 -1px 0 rgba(240,240,240,1.0);
